@@ -1,0 +1,28 @@
+body { font-family: 'Open Sans', sans-serif; }
+.disabled.character { -webkit-filter: grayscale(100%); filter: grayscale(100%);}
+.disabled {opacity: 0.4; }
+.characters { display: block; }
+.characters div { cursor: pointer; display: inline-block; margin: 5px 10px; text-align: center;}
+.random-button { }
+.controls { margin:20px 0px; }
+.button { background-color:#EEE; border-radius:5px; border: 1px solid #BBB; padding:5px 10px; margin:0 5px; cursor: pointer; box-shadow: 1px 1px #000;}
+.button:hover { box-shadow:none; background-color:#FFF;  }
+.button.disabled { cursor: not-allowed; opacity: 0.5; }
+.button.disabled:hover  { box-shadow: 1px 1px #000; background-color:#EEE; }
+.hide { display: none; border: 1px solid #DDD; }
+.character,.result  { height:70px;  }
+.powered { font-size: 10px; color: #CCC; }
+h1, .characters, .controls, .result {  text-align: center; }
+
+.character span {  height:43px; width: 38px; display:inline-block; background-size: contain; background-repeat: no-repeat; background-position: center bottom; }
+.issac { background-image: url(img/Isaac_App.png); }
+.maggy { background-image: url(img/Magdalene_App.png); }
+.cain { background-image: url(img/Cain_App.png); }
+.judas { background-image: url(img/Judas_App.png); }
+.blue-baby { background-image: url(img/Blue_Baby_App.png); }
+.eve { background-image: url(img/Eve_App.png); }
+.samson { background-image: url(img/Samson_App.png); }
+.azazel { background-image: url(img/Azazel_App.png); }
+.lazarus { background-image: url(img/Lazarus_App.png); }
+.eden { background-image: url(img/Eden_App.png); }
+.lost { background-image: url(img/The_Lost_App.png); }
